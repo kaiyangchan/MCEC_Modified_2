@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ApplicationIcon>Resources\Guillen.Icon.ico</ApplicationIcon>
+        <!-- v3.0: the executable is now `mcec.exe`. RootNamespace stays `MCEControl` (internal only)
+             to avoid churning every source file; the product is branded "MCEC". -->
+        <AssemblyName>mcec</AssemblyName>
+        <RootNamespace>MCEControl</RootNamespace>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <!-- Generate the version attributes (AssemblyVersion/FileVersion/InformationalVersion) from
+             the build's version properties, which GitVersion populates from git tags. The remaining
+             assembly attributes (Title/Description/Company/Product/Configuration) stay in
+             AssemblyInfo.cs, so their generation is disabled here to avoid duplicate-attribute errors. -->
+        <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+        <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+        <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+        <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+        <Copyright>Copyright © Kindel, LLC.</Copyright>
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <EnableWindowsTargeting>true</EnableWindowsTargeting>
+        <NoWarn>$(NoWarn);CA1416</NoWarn>
+        <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <DebugType>full</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+        <Optimize>false</Optimize>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+        <DefineConstants>TRACE</DefineConstants>
+        <DebugType>portable</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+        <Optimize>true</Optimize>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FlaUI.UIA3" Version="5.0.0" />
+        <PackageReference Include="log4net" Version="3.3.2" />
+        <PackageReference Include="Microsoft.ApplicationInsights" Version="2.23.0" />
+
+        <PackageReference Include="Octokit" Version="14.0.0" />
+        <PackageReference Include="System.IO.Ports" Version="10.0.9" />
+        <PackageReference Include="System.Text.Json" Version="10.0.9" />
+        <PackageReference Include="Terminal.Gui.Cli" Version="0.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- Only include non-standard resx files explicitly -->
+        <EmbeddedResource Include="Resources\MCEControl.xslt" />
+        <!-- Single source of truth for the agent connect-time guidance (AgentServer.Instructions). -->
+        <None Remove="Agent\AgentInstructions.md" />
+        <EmbeddedResource Include="Agent\AgentInstructions.md" LogicalName="MCEControl.AgentInstructions.md" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- Update metadata for standard resx files -->
+        <EmbeddedResource Update="Properties\Resources.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="Resources\Trafficlight-gray-icon.bmp" />
+        <None Include="Resources\Trafficlight-gray-icon.png" />
+        <None Include="Resources\Trafficlight-green-icon.png" />
+        <None Include="Resources\Trafficlight-red-icon.png" />
+        <None Include="app.manifest" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="Resources\Guillen.Icon.ico" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Update="Properties\Resources.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DesignTime>True</DesignTime>
+            <DependentUpon>Resources.resx</DependentUpon>
+        </Compile>
+        <Compile Update="Services\TelemetryService.tt.cs">
+            <AutoGen>True</AutoGen>
+            <DesignTime>True</DesignTime>
+            <DependentUpon>TelemetryService.tt</DependentUpon>
+        </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="Services\TelemetryService.tt">
+            <Generator>TextTemplatingFileGenerator</Generator>
+            <LastGenOutput>TelemetryService.tt.cs</LastGenOutput>
+        </None>
+    </ItemGroup>
+</Project>
