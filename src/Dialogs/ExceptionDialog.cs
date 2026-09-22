@@ -1,4 +1,4 @@
-// Copyright © Kindel, LLC - http://www.kindel.com
+﻿// Copyright © Kindel, LLC - http://www.kindel.com
 // Published under the MIT License - Source on GitHub: https://github.com/tig/mcec
 
 using System;
@@ -79,7 +79,7 @@ public sealed class ExceptionDialog : Form {
                 Logger.Instance.Log4.Warn($"ExceptionDialog: copy to clipboard failed: {ex.Message}");
             }
         };
-        reportButton.Click += (_, _) => Program.LaunchExternal("https://github.com/tig/mcec/issues/new");
+        //reportButton.Click += (_, _) => Program.LaunchExternal("https://github.com/tig/mcec/issues/new");
 
         // AutoSize + right anchor keeps the button group hugging the right edge without a fragile Dock in
         // an auto-size cell; RightToLeft flow puts Close first (rightmost), then Copy, then Report.

@@ -1,4 +1,4 @@
-// Copyright © Kindel, LLC - http://www.kindel.com
+﻿// Copyright © Kindel, LLC - http://www.kindel.com
 // Published under the MIT License - Source on GitHub: https://github.com/tig/mcec
 
 using System.Diagnostics;
@@ -107,28 +107,7 @@ internal static class Program {
     ///     Safely launches a URL, file, or folder using the shell (UseShellExecute).
     ///     Catches launch errors (e.g. no browser association), logs them, and shows a non-fatal message.
     /// </summary>
-    internal static void LaunchExternal(string target) {
-        if (string.IsNullOrWhiteSpace(target)) {
-            return;
-        }
-
-        try {
-            Process.Start(new ProcessStartInfo { FileName = target, UseShellExecute = true });
-        }
-        catch (Exception ex) {
-            Logger.Instance.Log4.Error($"Failed to launch external target '{target}': {ex.Message}");
-            try {
-                MessageBox.Show(
-                    @$"MCEC could not open:\n{target}\n\n{ex.Message}",
-                    @"MCEC",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-            }
-            catch {
-                // UI may not be available (e.g. headless)
-            }
-        }
-    }
+    
 
     /// <summary>
     ///     The main entry point. Three dispatch shapes: no args → the WinForms GUI (unchanged);

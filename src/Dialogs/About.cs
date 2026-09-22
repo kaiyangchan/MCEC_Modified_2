@@ -52,11 +52,11 @@ partial class About : Form {
 
     private void LinkLabelMceControllerLinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
         TelemetryService.Instance.TrackEvent("About Box License Link Clicked");
-        Program.LaunchExternal(_linkLabelMceController.Tag!.ToString()!);
+        //Program.LaunchExternal(_linkLabelMceController.Tag!.ToString()!);
     }
 
     private void LinkLabelCharlieLinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
         TelemetryService.Instance.TrackEvent("About Box Kindel Page Link Clicked");
-        Program.LaunchExternal(_linkLabelKindel.Tag!.ToString()!);
+        //Program.LaunchExternal(_linkLabelKindel.Tag!.ToString()!);
     }
 }

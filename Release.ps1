@@ -49,7 +49,7 @@ if ($LASTEXITCODE -ne 0) { throw "dotnet publish failed ($LASTEXITCODE)" }
 # Locate makensis (NSIS)
 $makensis = (Get-Command makensis.exe -ErrorAction SilentlyContinue).Source
 if (-not $makensis) {
-    foreach ($p in @("${env:ProgramFiles(x86)}\NSIS\makensis.exe", "$env:ProgramFiles\NSIS\makensis.exe")) {
+    foreach ($p in @("${env:ProgramFiles(x86)}\NSIS\makensisw.exe", "$env:ProgramFiles\NSIS\makensisw.exe")) {
         if (Test-Path $p) { $makensis = $p; break }
     }
 }

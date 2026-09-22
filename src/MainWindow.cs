@@ -1035,14 +1035,14 @@ public partial class MainWindow : Form, IAppHost {
     private void openCommandsFolderMenuItem_Click(object? sender, EventArgs e) {
         TelemetryService.Instance.TrackEvent("openCommandsFolderMenuItem");
 
-        Program.LaunchExternal(Program.ConfigPath);
+        //Program.LaunchExternal(Program.ConfigPath);
     }
 
 
     private void docsMenuItem_Click(object? sender, EventArgs e) {
         TelemetryService.Instance.TrackEvent("docsMenuItem");
 
-        Program.LaunchExternal("https://tig.github.io/mcec/");
+        //Program.LaunchExternal("https://tig.github.io/mcec/");
     }
 
     private void updatesMenuItem_Click(object? sender, EventArgs e) {
