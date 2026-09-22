@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AutoStart>false</AutoStart>
+  <HideOnStartup>false</HideOnStartup>
+  <TextBoxLogThreshold>INFO</TextBoxLogThreshold>
+  <ActAsClient>false</ActAsClient>
+  <ActAsServer>true</ActAsServer>
+  <ClientDelayTime>30000</ClientDelayTime>
+  <CommandPacing>0</CommandPacing>
+  <ClientHost>localhost</ClientHost>
+  <ClientPort>5150</ClientPort>
+  <Opacity>100</Opacity>
+  <ServerPort>5150</ServerPort>
+  <SocketServerBindAddress>0.0.0.0</SocketServerBindAddress>
+  <WakeupEnabled>false</WakeupEnabled>
+  <WakeupPort>0</WakeupPort>
+  <ActAsSerialServer>false</ActAsSerialServer>
+  <SerialServerPortName>COM1</SerialServerPortName>
+  <SerialServerBaudRate>9600</SerialServerBaudRate>
+  <SerialServerParity>None</SerialServerParity>
+  <SerialServerDataBits>8</SerialServerDataBits>
+  <SerialServerStopBits>One</SerialServerStopBits>
+  <SerialServerHandshake>None</SerialServerHandshake>
+  <WindowLocation>
+    <X>0</X>
+    <Y>0</Y>
+  </WindowLocation>
+  <WindowSize>
+    <Width>0</Width>
+    <Height>0</Height>
+  </WindowSize>
+  <ShowCommandWindow>false</ShowCommandWindow>
+  <ActivityMonitorEnabled>false</ActivityMonitorEnabled>
+  <ActivityMonitorCommand>activity</ActivityMonitorCommand>
+  <ActivityMonitorDebounceTime>10</ActivityMonitorDebounceTime>
+  <UnlockDetection>true</UnlockDetection>
+  <InputDetection>true</InputDetection>
+  <UserPresenceDetection>true</UserPresenceDetection>
+  <DisableUpdatePopup>false</DisableUpdatePopup>
+  <LogUserActivity>false</LogUserActivity>
+  <AgentCommandsEnabled>false</AgentCommandsEnabled>
+  <McpServerEnabled>false</McpServerEnabled>
+  <EmergencyStopEnabled>true</EmergencyStopEnabled>
+  <EmergencyStopHotkey>Ctrl+Alt+Shift+S</EmergencyStopHotkey>
+  <AllowSessionProvisioning>false</AllowSessionProvisioning>
+  <McpBindAddress>127.0.0.1</McpBindAddress>
+  <McpHttpPort>5151</McpHttpPort>
+  <McpAuthToken />
+  <CommandOverlayEnabled>true</CommandOverlayEnabled>
+  <CommandOverlayPosition>Right</CommandOverlayPosition>
+  <AgentRecordMaxFps>30</AgentRecordMaxFps>
+  <AgentRecordMaxDurationMs>60000</AgentRecordMaxDurationMs>
+  <AgentRecordMaxFrames>600</AgentRecordMaxFrames>
+  <AgentRecordMaxWidth>1280</AgentRecordMaxWidth>
+</AppSettings>

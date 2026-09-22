@@ -1,0 +1,11 @@
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\bin\Debug\netstandard2.0\MCEControl.Analyzers.dll
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\bin\Debug\netstandard2.0\MCEControl.Analyzers.pdb
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\obj\Debug\netstandard2.0\MCEControl.Analyzers.csproj.AssemblyReference.cache
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\obj\Debug\netstandard2.0\MCEControl.Analyzers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\obj\Debug\netstandard2.0\GitVersionInformation.g.cs
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\obj\Debug\netstandard2.0\MCEControl.Analyzers.AssemblyInfoInputs.cache
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\obj\Debug\netstandard2.0\MCEControl.Analyzers.AssemblyInfo.cs
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\obj\Debug\netstandard2.0\MCEControl.Analyzers.csproj.CoreCompileInputs.cache
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\obj\Debug\netstandard2.0\MCEControl.Analyzers.sourcelink.json
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\obj\Debug\netstandard2.0\MCEControl.Analyzers.dll
+C:\Users\ChanKaiYang\Documents\GitHub\mcec\tools\MCEControl.Analyzers\obj\Debug\netstandard2.0\MCEControl.Analyzers.pdb

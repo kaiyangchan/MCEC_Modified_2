@@ -1,0 +1,127 @@
+2026-09-04 12:32:26,892 DEBUG - ------ START: v3.0.30-develop.0+Branch.develop.Sha.0dee20d8d518491f4f8a115237fb0fc6d21761f4.0dee20d8d518491f4f8a115237fb0fc6d21761f4 - OS: Microsoft Windows NT 10.0.26200.0 on x64 - .NET: 10.0.11 ------
+2026-09-04 12:32:27,176 INFO  - MCEC v3.0.30-develop.0+Branch.develop.Sha.0dee20d8d518491f4f8a115237fb0fc6d21761f4.0dee20d8d518491f4f8a115237fb0fc6d21761f4 - OS: Microsoft Windows NT 10.0.26200.0 on x64 - .NET: 10.0.11
+2026-09-04 12:32:27,181 INFO  - Settings: Loading from C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.settings
+2026-09-04 12:32:27,262 INFO  - Settings: Creating settings file with defaults: C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.settings
+2026-09-04 12:32:27,273 INFO  - Settings: Wrote settings to C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.settings
+2026-09-04 12:32:27,281 INFO  - MCEC: agent commands disabled (McpServerEnabled=False, AllowSessionProvisioning=False).
+2026-09-04 12:32:27,286 INFO  - MCEC: no provisioned instances under C:\Users\ChanKaiYang\AppData\Local\MCEC\sessions.
+2026-09-04 12:32:27,287 INFO  - Settings: DisableUpdatePopup = False
+2026-09-04 12:32:27,404 INFO  - Logger: Logging to C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.log
+2026-09-04 12:32:27,432 INFO  - Telemetry: Disabled
+2026-09-04 12:32:28,051 INFO  - SerializedCommands: Created default commands file (325 built-in commands, all disabled): C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.commands
+2026-09-04 12:32:28,052 INFO  - SerializedCommands: Loading user-defined commands from C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.commands
+2026-09-04 12:32:28,343 INFO  - CommandInvoker: 325 commands loaded
+2026-09-04 12:32:28,375 INFO  - CommandInvoker: 0 commands enabled (324 commands disabled).
+2026-09-04 12:32:28,382 INFO  - CommandFileWatcher: Watching C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.commands for changes
+2026-09-04 12:32:28,413 INFO  - SocketServer: Starting...
+2026-09-04 12:32:28,436 WARN  - SocketServer: the command server is bound to 0.0.0.0 (a non-loopback address) and has NO authentication; it accepts keyboard/mouse/process commands from ANY host that can reach the port (LAN/VPN/port-forward). For single-machine use set SocketServerBindAddress=127.0.0.1 to restrict it to this machine.
+2026-09-04 12:32:28,440 DEBUG - SocketServer - Binding to IP address: 0.0.0.0:5150
+2026-09-04 12:32:28,441 DEBUG - _mainSocket.Listen
+2026-09-04 12:32:28,446 INFO  - SocketServer: Started on port 5150
+2026-09-04 12:32:28,449 INFO  - SocketServer: Waiting for a client to connect
+2026-09-04 12:32:28,473 DEBUG - Checking for new release...
+2026-09-04 12:32:29,934 DEBUG - The latest release is tagged at v3.0.29 and is named 'MCEC v3.0.29'. Download Url: https://github.com/tig/mcec/releases/download/v3.0.29/mcec.Setup.exe
+2026-09-04 12:32:29,938 INFO  - You are are running a more recent version than the latest published version (https://github.com/tig/mcec/releases/tag/v3.0.29)
+2026-09-04 12:34:33,071 INFO  - Hiding Main Window...
+2026-09-04 16:09:47,048 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-04 16:09:48,024 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-04 16:50:06,791 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-04 17:10:03,653 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-05 09:36:09,447 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 4.
+2026-09-07 11:30:21,507 DEBUG - Checking for new release...
+2026-09-07 11:30:22,661 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-07 11:30:23,022 INFO  - (https://github.com/tig/mcec/releases) No such host is known. (api.github.com:443)
+2026-09-07 11:30:23,036 INFO  - Could not access https://github.com/tig/mcec/releases to see if a newer version is available. (https://github.com/tig/mcec/releases) No such host is known. (api.github.com:443)
+2026-09-07 11:30:24,078 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 7.
+2026-09-07 11:30:24,162 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 18.
+2026-09-07 12:57:54,657 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-07 12:57:55,632 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-07 14:30:43,147 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-07 14:30:44,136 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-07 14:32:58,281 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-07 16:51:18,856 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-07 16:51:20,501 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-07 17:50:24,229 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-07 18:05:45,147 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-08 08:54:12,896 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-08 08:54:13,610 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-08 09:37:13,732 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-08 10:06:47,162 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-08 10:32:49,694 DEBUG - Checking for new release...
+2026-09-08 10:32:50,946 DEBUG - The latest release is tagged at v3.0.29 and is named 'MCEC v3.0.29'. Download Url: https://github.com/tig/mcec/releases/download/v3.0.29/mcec.Setup.exe
+2026-09-08 10:32:50,946 INFO  - You are are running a more recent version than the latest published version (https://github.com/tig/mcec/releases/tag/v3.0.29)
+2026-09-08 10:32:59,541 INFO  - Hiding Main Window...
+2026-09-08 15:26:25,915 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-08 15:26:26,897 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-08 15:35:24,387 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-08 16:38:02,644 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-09 11:39:51,736 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-09 11:39:52,753 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-09 13:16:20,418 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-09 13:43:18,735 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-10 08:45:28,809 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 4.
+2026-09-10 09:03:56,573 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-10 09:04:58,461 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-10 09:04:59,827 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 18.
+2026-09-10 09:05:00,285 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 7.
+2026-09-10 09:08:14,601 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-10 09:08:19,133 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-10 09:11:16,194 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-10 10:11:56,913 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-10 10:15:25,521 DEBUG - Checking for new release...
+2026-09-10 10:15:26,720 DEBUG - The latest release is tagged at v3.0.29 and is named 'MCEC v3.0.29'. Download Url: https://github.com/tig/mcec/releases/download/v3.0.29/mcec.Setup.exe
+2026-09-10 10:15:26,722 INFO  - You are are running a more recent version than the latest published version (https://github.com/tig/mcec/releases/tag/v3.0.29)
+2026-09-10 16:22:42,039 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-10 16:22:43,052 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-10 17:17:58,407 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-11 12:13:03,286 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-11 12:13:04,274 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-11 12:41:12,465 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-11 13:44:17,606 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-11 14:01:00,716 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-11 17:22:22,901 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-11 17:22:23,889 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-11 17:41:40,598 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-12 08:21:00,195 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 4.
+2026-09-14 10:16:18,394 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-14 10:16:18,404 DEBUG - Checking for new release...
+2026-09-14 10:16:18,470 INFO  - (https://github.com/tig/mcec/releases) No such host is known. (api.github.com:443)
+2026-09-14 10:16:18,475 INFO  - Could not access https://github.com/tig/mcec/releases to see if a newer version is available. (https://github.com/tig/mcec/releases) No such host is known. (api.github.com:443)
+2026-09-14 10:16:19,136 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 7.
+2026-09-14 10:16:19,302 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 18.
+2026-09-14 10:17:53,133 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-14 10:17:54,117 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-14 10:26:36,330 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-14 10:32:40,941 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-14 10:32:41,916 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-14 11:47:21,618 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 07:04:49,789 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 4.
+2026-09-15 10:11:26,581 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 10:11:28,188 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 7.
+2026-09-15 10:11:28,338 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 18.
+2026-09-15 10:15:35,755 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 10:23:43,675 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 10:27:37,656 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 10:27:38,675 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 10:55:59,897 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 10:56:02,714 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 10:56:04,691 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 10:57:09,649 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 10:57:10,633 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 10:57:11,609 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 11:10:58,297 ERROR - ActivityMonitor: PowerBroadcast: Unknown PBT 10.
+2026-09-15 13:36:15,635 INFO  - Exiting app...
+2026-09-15 13:36:15,643 INFO  - ActivityMonitor: Stop
+2026-09-15 13:36:15,659 INFO  - SocketServer: Stopping...
+2026-09-15 13:36:15,662 DEBUG - SocketServer Stop
+2026-09-15 13:36:15,673 DEBUG - SocketServer OnClientConnect
+2026-09-15 13:36:15,686 INFO  - Settings: Wrote settings to C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.settings
+2026-09-15 13:36:15,695 INFO  - CommandFileWatcher: Stopped watching C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.commands for changes
+2026-09-15 13:36:15,702 INFO  - Closing Main Window...
+2026-09-15 13:36:15,707 DEBUG - Ensuring shift key modifiers are reset...
+2026-09-15 13:36:15,708 INFO  - ShiftKey: shift up
+2026-09-15 13:36:15,716 INFO  - ShiftKey: ctrl up
+2026-09-15 13:36:15,717 INFO  - ShiftKey: alt up
+2026-09-15 13:36:15,717 INFO  - ShiftKey: lwin up
+2026-09-15 13:36:15,717 INFO  - ShiftKey: rwin up
+2026-09-15 13:36:15,760 DEBUG - ------ END runtime: 11:1:04:07.9039137 ------

@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|c:\\users\\chankaiyang\\documents\\github\\mcec\\src\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|solutionrelative:src\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|c:\\users\\chankaiyang\\documents\\github\\mcec\\src\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|solutionrelative:src\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|c:\\users\\chankaiyang\\documents\\github\\mcec\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|c:\\users\\chankaiyang\\documents\\github\\mcec\\src\\dialogs\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|solutionrelative:src\\dialogs\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|c:\\users\\chankaiyang\\documents\\github\\mcec\\src\\dialogs\\updatedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|solutionrelative:src\\dialogs\\updatedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|c:\\users\\chankaiyang\\documents\\github\\mcec\\src\\dialogs\\exceptiondialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B095233C-70C9-3FD5-D4DC-9B8E5837090E}|src\\MCEControl.csproj|solutionrelative:src\\dialogs\\exceptiondialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\MainWindow.cs",
+              "RelativeDocumentMoniker": "src\\MainWindow.cs",
+              "ToolTip": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\MainWindow.cs",
+              "RelativeToolTip": "src\\MainWindow.cs",
+              "ViewState": "AgIAAF0CAAAAAAAAAAAEwKkDAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T04:18:15.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateDialog.cs",
+              "DocumentMoniker": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\Dialogs\\UpdateDialog.cs",
+              "RelativeDocumentMoniker": "src\\Dialogs\\UpdateDialog.cs",
+              "ToolTip": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\Dialogs\\UpdateDialog.cs",
+              "RelativeToolTip": "src\\Dialogs\\UpdateDialog.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T04:18:08.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionDialog.cs",
+              "DocumentMoniker": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\Dialogs\\ExceptionDialog.cs",
+              "RelativeDocumentMoniker": "src\\Dialogs\\ExceptionDialog.cs",
+              "ToolTip": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\Dialogs\\ExceptionDialog.cs",
+              "RelativeToolTip": "src\\Dialogs\\ExceptionDialog.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwFEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T04:17:38.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cs",
+              "DocumentMoniker": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\Dialogs\\About.cs",
+              "RelativeDocumentMoniker": "src\\Dialogs\\About.cs",
+              "ToolTip": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\Dialogs\\About.cs",
+              "RelativeToolTip": "src\\Dialogs\\About.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T04:17:24.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\README.md",
+              "RelativeDocumentMoniker": "src\\README.md",
+              "ToolTip": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\README.md",
+              "RelativeToolTip": "src\\README.md",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-04T03:32:07.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Program.cs",
+              "ToolTip": "C:\\Users\\ChanKaiYang\\Documents\\GitHub\\mcec\\src\\Program.cs",
+              "RelativeToolTip": "src\\Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwG0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T03:32:05.369Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+2026-09-04 12:32:26,892 DEBUG - ------ START: v3.0.30-develop.0+Branch.develop.Sha.0dee20d8d518491f4f8a115237fb0fc6d21761f4.0dee20d8d518491f4f8a115237fb0fc6d21761f4 - OS: Microsoft Windows NT 10.0.26200.0 on x64 - .NET: 10.0.11 ------
+2026-09-04 12:32:27,176 INFO  - MCEC v3.0.30-develop.0+Branch.develop.Sha.0dee20d8d518491f4f8a115237fb0fc6d21761f4.0dee20d8d518491f4f8a115237fb0fc6d21761f4 - OS: Microsoft Windows NT 10.0.26200.0 on x64 - .NET: 10.0.11
+2026-09-04 12:32:27,181 INFO  - Settings: Loading from C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.settings
+2026-09-04 12:32:27,262 INFO  - Settings: Creating settings file with defaults: C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.settings
+2026-09-04 12:32:27,273 INFO  - Settings: Wrote settings to C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.settings
+2026-09-04 12:32:27,281 INFO  - MCEC: agent commands disabled (McpServerEnabled=False, AllowSessionProvisioning=False).
+2026-09-04 12:32:27,286 INFO  - MCEC: no provisioned instances under C:\Users\ChanKaiYang\AppData\Local\MCEC\sessions.
+2026-09-04 12:32:27,287 INFO  - Settings: DisableUpdatePopup = False
+2026-09-04 12:32:27,404 INFO  - Logger: Logging to C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.log
+2026-09-04 12:32:27,432 INFO  - Telemetry: Disabled
+2026-09-04 12:32:28,051 INFO  - SerializedCommands: Created default commands file (325 built-in commands, all disabled): C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.commands
+2026-09-04 12:32:28,052 INFO  - SerializedCommands: Loading user-defined commands from C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.commands
+2026-09-04 12:32:28,343 INFO  - CommandInvoker: 325 commands loaded
+2026-09-04 12:32:28,375 INFO  - CommandInvoker: 0 commands enabled (324 commands disabled).
+2026-09-04 12:32:28,382 INFO  - CommandFileWatcher: Watching C:\Users\ChanKaiYang\Documents\GitHub\mcec\src\bin\Debug\net10.0-windows10.0.26100.0\mcec.commands for changes
+2026-09-04 12:32:28,413 INFO  - SocketServer: Starting...
+2026-09-04 12:32:28,436 WARN  - SocketServer: the command server is bound to 0.0.0.0 (a non-loopback address) and has NO authentication; it accepts keyboard/mouse/process commands from ANY host that can reach the port (LAN/VPN/port-forward). For single-machine use set SocketServerBindAddress=127.0.0.1 to restrict it to this machine.
+2026-09-04 12:32:28,440 DEBUG - SocketServer - Binding to IP address: 0.0.0.0:5150
+2026-09-04 12:32:28,441 DEBUG - _mainSocket.Listen
+2026-09-04 12:32:28,446 INFO  - SocketServer: Started on port 5150
+2026-09-04 12:32:28,449 INFO  - SocketServer: Waiting for a client to connect
+2026-09-04 12:32:28,473 DEBUG - Checking for new release...
+2026-09-04 12:32:29,934 DEBUG - The latest release is tagged at v3.0.29 and is named 'MCEC v3.0.29'. Download Url: https://github.com/tig/mcec/releases/download/v3.0.29/mcec.Setup.exe
+2026-09-04 12:32:29,938 INFO  - You are are running a more recent version than the latest published version (https://github.com/tig/mcec/releases/tag/v3.0.29)
+2026-09-04 12:34:33,071 INFO  - Hiding Main Window...
